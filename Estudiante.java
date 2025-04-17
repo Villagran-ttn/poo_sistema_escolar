@@ -1,13 +1,17 @@
 public class Estudiante {
 
-    public static void InfoEstudiante() {
+    private String matricula;
+    private String escuela;
+    private String carrera;
 
-        Person persona01 = new Person("Juan", 20, "2441244", "UAEM", "Ingeniería en Sistemas Inteligentes");
-        persona01.yourself();
-        Person persona02 = new Person("Villagran Jorge", 19, "2552255", "UAEM", "Ingeniería en Sistemas Inteligentes");
-        persona02.yourself();
-        Person persona03 = new Person("Montoya", 19, "2663266", "UAEM", "Ingeniería en Sistemas Inteligentes");
-        persona03.yourself();
+    public Estudiante(String matricula, String escuela, String carrera){
+        this.matricula = matricula;
+        this.escuela = escuela;
+        this.carrera = carrera;
+    }
 
+    public void informacionE() {
+        System.out.println("Estudio en la univeridad de " + escuela + " en la carrera de " + carrera + ".");
+        System.out.println("Y mi matricula es " + matricula + ".");
     }
 }
