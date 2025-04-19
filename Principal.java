@@ -18,5 +18,9 @@ public class Principal {
         estudiante03.informacionE();
         System.out.println();
 
+        Person profesorA1 = new Person("Vinchenzo Acevedo", 35);
+        profesorA1.yourself();
+        Profesor profesorC = new Profesor("I2-P-456", "UAEM", "Ingeniería en Sistemas Inteligentes", "Programación", "I2");
+        profesorC.informacionP();
     }
 }

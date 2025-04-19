@@ -4,7 +4,7 @@ public class Estudiante {
     private String escuela;
     private String carrera;
 
-    public Estudiante(String matricula, String escuela, String carrera){
+    public Estudiante(String matricula, String escuela, String carrera) {
         this.matricula = matricula;
         this.escuela = escuela;
         this.carrera = carrera;
